@@ -3,7 +3,7 @@ private int smallestBranch = 1;
 private double branchAngle = .4;  
 public void setup() 
 {    
-	size(1200,650);    
+	size(1200,750);    
 	noLoop(); 
 } 
 public void draw() 
@@ -11,8 +11,8 @@ public void draw()
 	background(255,255,200);   
 	stroke(200,120,120); 
 	strokeWeight(7);  
-	line(width/2+100,height,width/2+100,height-100);   
-	drawBranches(width/2+100,height-100,100,3*Math.PI/2,4,1);  //will add later 
+	line(width/2+100,height-100,width/2+100,height-200);   
+	drawBranches(width/2+100,height-200,100,3*Math.PI/2,4,1);  //will add later 
 } 
 public void drawBranches(int x,int y, double branchLength, double angle, double we,float b) 
 {   
